@@ -14,7 +14,13 @@ export default function SingleMonster(props) {
       <Text>
         {monster.type} {monster.subtype}
       </Text>
-      <Button title="Compare" onPress={() => addToComparison(monster)} />
+      <Button
+        title="Compare"
+        onPress={() => {
+          addToComparison(monster);
+          props.navigation.navigate('Monsters');
+        }}
+      />
     </View>
   );
 }

@@ -36,7 +36,7 @@ export default function Monsters() {
               data={comparison}
               style={{ data: { fill: 'tomato' } }}
               animate={{
-                duration: 2000,
+                duration: 1500,
                 onLoad: { duration: 1000 }
               }}
               x="name"
@@ -48,7 +48,7 @@ export default function Monsters() {
               data={comparison}
               style={{ data: { fill: 'pink' } }}
               animate={{
-                duration: 2000,
+                duration: 1500,
                 onLoad: { duration: 1000 }
               }}
               alignment="end"
